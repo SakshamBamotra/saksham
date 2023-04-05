@@ -1,9 +1,12 @@
 #include<stdio.h>
 void main()
 {
+   \\Delaration of arrays and looping variable
    int a[10][10],b[10][10],d[10][10],r,c,n;
+   \\Input the size of array
    printf("Enter the (n*n)size of the arrays: ");
    scanf("%d",&n);
+   \\Input the elements of array'a'
    printf("Enter the elements of array'a'\n");
    for(r=0;r<n;r++)
    {
@@ -12,6 +15,7 @@ void main()
            scanf("%d",&a[r][c]);
        }
    }
+   \\Input the elements of array'b'
    printf("Enter the elements of the array'b'\n");
    for(r=0;r<n;r++)
    {
